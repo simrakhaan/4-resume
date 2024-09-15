@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js"></script>
+  <title>Build Resume Form</title>
+</head>
+<body>
+  <center><h1>Resume Builder Form</h1></center>
+  <div class="main">
+    <form id="resumeForm">
+      <h2>Personal Information</h2>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" placeholder="Enter Your Name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" placeholder="Enter Your Email" required /><br /><br />
+
+      <label for="number">Phone Number:</label><br />
+      <input type="tel" id="number" placeholder="Enter Your Number" required /><br /><br />
+
+      <label for="address">Address:</label><br />
+      <input type="text" id="address" placeholder="Enter Your Address" required /><br /><br />
+
+      <h2>Education</h2>
+      <label for="degree">Degree:</label><br />
+      <input type="text" id="degree" placeholder="Enter Your Degree" required /><br /><br />
+
+      <label for="school">School/University:</label><br />
+      <input type="text" id="school" placeholder="Enter Your School/University" required /><br /><br />
+
+      <label for="year">Year:</label><br />
+      <input type="number" id="year" placeholder="Enter your Degree Year" required /><br /><br />
+
+      <h2>Skills</h2>
+      <label for="skills">Skills:</label><br />
+      <input type="text" id="skills" placeholder="Write your skills here!" required /><br /><br />
+
+      <center>
+        <button class="button" type="button" id="generateResumeButton">GENERATE RESUME</button>
+      </center>
+    </form>
+    <div class="resume-output" id="resumeOutput"></div>
+  </div>
+
+  
+</body>
+</html>
